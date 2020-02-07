@@ -11,9 +11,7 @@ services:
       options: 
         max-file: "5"
         max-size: 10m
-    links:
-      - queue-server
-    environment:
+   environment:
       TZ: "Asia/Manila"
     ports:
       - "9999:9999"
