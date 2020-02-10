@@ -1,21 +1,21 @@
 <app>
 <env>
 app.title=ETRACS 2.5 build 05 20200203_1730 (CITY OF CADIZ)
-app.host=192.168.254.225:8070
+app.host=192.168.1.11:8070
 app.cluster=osiris3
 app.context=etracs25
-app.help=http://192.168.254.225:8080/help
+app.help=http://192.168.1.11:8080/help
 app.loader=com.rameses.osiris2.client.OsirisAppLoader
 readTimeout=300000
 connectionTimeout=5000
 
-ws.host=192.168.254.225:8060
-#res.host=192.168.254.225
+ws.host=192.168.1.11:8060
+#res.host=192.168.1.11
 
-socketio.host=192.168.254.225:7080
+socketio.host=192.168.1.11:7080
 
 #entity-service
-entity.app.host=192.168.254.225:8070
+entity.app.host=192.168.1.11:8070
 entity.app.context=etracs25
 
 </env>
